@@ -51,6 +51,10 @@ p{
         font-size: 18px;
       }
     }
+img, video {
+  max-width: 100%; /* Passt sich an die Breite des Containers an */
+  height: auto; /* Beibehaltung des Seitenverhältnisses */
+}
 
 /* Halbtransparentes Feld */
 .text-box {
