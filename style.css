@@ -1,36 +1,21 @@
-/* Mobile-Standardstile */
-body {
-  font-size: 14px;
-  padding: 10px;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-/* Anpassungen für größere Bildschirme */
-@media (min-width: 768px) {
-  body {
-    font-size: 16px;
-    padding: 20px;
-  }
-
-  .container {
-    flex-direction: row;
-  }
+/* Grundstil */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  overflow: auto;  /*   Kein Scrollen */
 }
 
 h1{
   color: #00ff00;
-  font-size: auto;
+  font-size: 3em;
   font-weight: bold;
 }
 
 p{
   color:  #00ff00;
-  font-size: auto; 
+  font-size: 1em; 
 }
 
     .container {
@@ -51,10 +36,6 @@ p{
         font-size: 18px;
       }
     }
-img, video {
-  max-width: 100%; /* Passt sich an die Breite des Containers an */
-  height: auto; /* Beibehaltung des Seitenverhältnisses */
-}
 
 /* Halbtransparentes Feld */
 .text-box {
